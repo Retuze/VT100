@@ -1,0 +1,26 @@
+[
+{
+  "directory": "E:/code/VT100/build",
+  "command": "C:\\tool\\mingw32\\bin\\gcc.exe  @CMakeFiles/VT100.dir/includes_C.rsp -g -o CMakeFiles\\VT100.dir\\fifo.c.obj -c E:\\code\\VT100\\fifo.c",
+  "file": "E:/code/VT100/fifo.c",
+  "output": "CMakeFiles/VT100.dir/fifo.c.obj"
+},
+{
+  "directory": "E:/code/VT100/build",
+  "command": "C:\\tool\\mingw32\\bin\\g++.exe  @CMakeFiles/VT100.dir/includes_CXX.rsp -g -o CMakeFiles\\VT100.dir\\main.cpp.obj -c E:\\code\\VT100\\main.cpp",
+  "file": "E:/code/VT100/main.cpp",
+  "output": "CMakeFiles/VT100.dir/main.cpp.obj"
+},
+{
+  "directory": "E:/code/VT100/build",
+  "command": "C:\\tool\\mingw32\\bin\\g++.exe  @CMakeFiles/VT100.dir/includes_CXX.rsp -g -o CMakeFiles\\VT100.dir\\shell.cpp.obj -c E:\\code\\VT100\\shell.cpp",
+  "file": "E:/code/VT100/shell.cpp",
+  "output": "CMakeFiles/VT100.dir/shell.cpp.obj"
+},
+{
+  "directory": "E:/code/VT100/build",
+  "command": "C:\\tool\\mingw32\\bin\\g++.exe  @CMakeFiles/VT100.dir/includes_CXX.rsp -g -o CMakeFiles\\VT100.dir\\term.cpp.obj -c E:\\code\\VT100\\term.cpp",
+  "file": "E:/code/VT100/term.cpp",
+  "output": "CMakeFiles/VT100.dir/term.cpp.obj"
+}
+]
