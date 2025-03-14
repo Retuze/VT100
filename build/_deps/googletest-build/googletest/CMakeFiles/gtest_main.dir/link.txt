@@ -1,2 +1,0 @@
-C:\tool\mingw32\bin\ar.exe qc ..\..\..\lib\libgtest_main.a CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj
-C:\tool\mingw32\bin\ranlib.exe ..\..\..\lib\libgtest_main.a

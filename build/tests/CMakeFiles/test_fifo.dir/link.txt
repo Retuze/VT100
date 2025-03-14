@@ -1,3 +1,0 @@
-C:\tool\mingw32\bin\cmake.exe -E rm -f CMakeFiles\test_fifo.dir/objects.a
-C:\tool\mingw32\bin\ar.exe qc CMakeFiles\test_fifo.dir/objects.a @CMakeFiles\test_fifo.dir\objects1.rsp
-C:\tool\mingw32\bin\g++.exe  -O0 -fprofile-arcs -ftest-coverage -O0 -fprofile-arcs -ftest-coverage -g -static -Wl,--whole-archive CMakeFiles\test_fifo.dir/objects.a -Wl,--no-whole-archive -o test_fifo.exe -Wl,--out-implib,libtest_fifo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\test_fifo.dir\linkLibs.rsp

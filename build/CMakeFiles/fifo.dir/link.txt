@@ -1,2 +1,0 @@
-C:\tool\mingw32\bin\ar.exe qc libfifo.a CMakeFiles/fifo.dir/fifo.c.obj
-C:\tool\mingw32\bin\ranlib.exe libfifo.a

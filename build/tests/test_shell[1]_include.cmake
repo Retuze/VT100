@@ -1,5 +1,0 @@
-if(EXISTS "E:/code/VT100/build/tests/test_shell[1]_tests.cmake")
-  include("E:/code/VT100/build/tests/test_shell[1]_tests.cmake")
-else()
-  add_test(test_shell_NOT_BUILT test_shell_NOT_BUILT)
-endif()
