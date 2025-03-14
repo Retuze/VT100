@@ -1,0 +1,2 @@
+C:\tool\mingw32\bin\ar.exe qc libterm.a CMakeFiles/term.dir/term.cpp.obj
+C:\tool\mingw32\bin\ranlib.exe libterm.a

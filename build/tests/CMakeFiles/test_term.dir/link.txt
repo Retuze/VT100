@@ -1,0 +1,3 @@
+C:\tool\mingw32\bin\cmake.exe -E rm -f CMakeFiles\test_term.dir/objects.a
+C:\tool\mingw32\bin\ar.exe qc CMakeFiles\test_term.dir/objects.a @CMakeFiles\test_term.dir\objects1.rsp
+C:\tool\mingw32\bin\g++.exe  -O0 -fprofile-arcs -ftest-coverage -O0 -fprofile-arcs -ftest-coverage -g -static -Wl,--whole-archive CMakeFiles\test_term.dir/objects.a -Wl,--no-whole-archive -o test_term.exe -Wl,--out-implib,libtest_term.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\test_term.dir\linkLibs.rsp

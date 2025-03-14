@@ -18,7 +18,7 @@ struct fifo {
 // 取a和b中最小值
 #define fifo_min(a, b) (((a) < (b)) ? (a) : (b))
 
-void fifo_init(struct fifo *fifo, uint8_t *buffer, uint32_t capacity);
+bool fifo_init(struct fifo *fifo, uint8_t *buffer, uint32_t capacity);
 // 获取FIFO中可写入的空闲空间
 static inline uint32_t fifo_write_available(struct fifo *fifo)
 {

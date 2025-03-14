@@ -7,11 +7,11 @@ C_DEFINES =
 
 C_INCLUDES = @CMakeFiles/VT100.dir/includes_C.rsp
 
-C_FLAGS = -g
+C_FLAGS =  -O0 -fprofile-arcs -ftest-coverage -g
 
 CXX_DEFINES = 
 
 CXX_INCLUDES = @CMakeFiles/VT100.dir/includes_CXX.rsp
 
-CXX_FLAGS = -g
+CXX_FLAGS =  -O0 -fprofile-arcs -ftest-coverage -g
 

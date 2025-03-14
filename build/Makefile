@@ -64,6 +64,16 @@ CMAKE_BINARY_DIR = E:\code\VT100\build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
+	C:\tool\mingw32\bin\ctest.exe --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
@@ -83,6 +93,51 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	C:\tool\mingw32\bin\cmake.exe -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	C:\tool\mingw32\bin\cmake.exe -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	C:\tool\mingw32\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	C:\tool\mingw32\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	C:\tool\mingw32\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	C:\tool\mingw32\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -128,12 +183,143 @@ VT100/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VT100.dir\build.make CMakeFiles/VT100.dir/build
 .PHONY : VT100/fast
 
+#=============================================================================
+# Target rules for targets named fifo
+
+# Build rule for target.
+fifo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fifo
+.PHONY : fifo
+
+# fast build rule for target.
+fifo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fifo.dir\build.make CMakeFiles/fifo.dir/build
+.PHONY : fifo/fast
+
+#=============================================================================
+# Target rules for targets named term
+
+# Build rule for target.
+term: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 term
+.PHONY : term
+
+# fast build rule for target.
+term/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\term.dir\build.make CMakeFiles/term.dir/build
+.PHONY : term/fast
+
+#=============================================================================
+# Target rules for targets named shell
+
+# Build rule for target.
+shell: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 shell
+.PHONY : shell
+
+# fast build rule for target.
+shell/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\shell.dir\build.make CMakeFiles/shell.dir/build
+.PHONY : shell/fast
+
+#=============================================================================
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+#=============================================================================
+# Target rules for targets named test_fifo
+
+# Build rule for target.
+test_fifo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_fifo
+.PHONY : test_fifo
+
+# fast build rule for target.
+test_fifo/fast:
+	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\test_fifo.dir\build.make tests/CMakeFiles/test_fifo.dir/build
+.PHONY : test_fifo/fast
+
+#=============================================================================
+# Target rules for targets named test_term
+
+# Build rule for target.
+test_term: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_term
+.PHONY : test_term
+
+# fast build rule for target.
+test_term/fast:
+	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\test_term.dir\build.make tests/CMakeFiles/test_term.dir/build
+.PHONY : test_term/fast
+
+#=============================================================================
+# Target rules for targets named test_shell
+
+# Build rule for target.
+test_shell: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_shell
+.PHONY : test_shell
+
+# fast build rule for target.
+test_shell/fast:
+	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\test_shell.dir\build.make tests/CMakeFiles/test_shell.dir/build
+.PHONY : test_shell/fast
+
 fifo.obj: fifo.c.obj
 .PHONY : fifo.obj
 
 # target to build an object file
 fifo.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VT100.dir\build.make CMakeFiles/VT100.dir/fifo.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fifo.dir\build.make CMakeFiles/fifo.dir/fifo.c.obj
 .PHONY : fifo.c.obj
 
 fifo.i: fifo.c.i
@@ -142,6 +328,7 @@ fifo.i: fifo.c.i
 # target to preprocess a source file
 fifo.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VT100.dir\build.make CMakeFiles/VT100.dir/fifo.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fifo.dir\build.make CMakeFiles/fifo.dir/fifo.c.i
 .PHONY : fifo.c.i
 
 fifo.s: fifo.c.s
@@ -150,6 +337,7 @@ fifo.s: fifo.c.s
 # target to generate assembly for a file
 fifo.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VT100.dir\build.make CMakeFiles/VT100.dir/fifo.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fifo.dir\build.make CMakeFiles/fifo.dir/fifo.c.s
 .PHONY : fifo.c.s
 
 main.obj: main.cpp.obj
@@ -182,6 +370,7 @@ shell.obj: shell.cpp.obj
 # target to build an object file
 shell.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VT100.dir\build.make CMakeFiles/VT100.dir/shell.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\shell.dir\build.make CMakeFiles/shell.dir/shell.cpp.obj
 .PHONY : shell.cpp.obj
 
 shell.i: shell.cpp.i
@@ -190,6 +379,7 @@ shell.i: shell.cpp.i
 # target to preprocess a source file
 shell.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VT100.dir\build.make CMakeFiles/VT100.dir/shell.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\shell.dir\build.make CMakeFiles/shell.dir/shell.cpp.i
 .PHONY : shell.cpp.i
 
 shell.s: shell.cpp.s
@@ -198,6 +388,7 @@ shell.s: shell.cpp.s
 # target to generate assembly for a file
 shell.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VT100.dir\build.make CMakeFiles/VT100.dir/shell.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\shell.dir\build.make CMakeFiles/shell.dir/shell.cpp.s
 .PHONY : shell.cpp.s
 
 term.obj: term.cpp.obj
@@ -206,6 +397,7 @@ term.obj: term.cpp.obj
 # target to build an object file
 term.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VT100.dir\build.make CMakeFiles/VT100.dir/term.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\term.dir\build.make CMakeFiles/term.dir/term.cpp.obj
 .PHONY : term.cpp.obj
 
 term.i: term.cpp.i
@@ -214,6 +406,7 @@ term.i: term.cpp.i
 # target to preprocess a source file
 term.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VT100.dir\build.make CMakeFiles/VT100.dir/term.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\term.dir\build.make CMakeFiles/term.dir/term.cpp.i
 .PHONY : term.cpp.i
 
 term.s: term.cpp.s
@@ -222,6 +415,7 @@ term.s: term.cpp.s
 # target to generate assembly for a file
 term.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VT100.dir\build.make CMakeFiles/VT100.dir/term.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\term.dir\build.make CMakeFiles/term.dir/term.cpp.s
 .PHONY : term.cpp.s
 
 # Help Target
@@ -231,8 +425,23 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
+	@echo ... install
+	@echo ... install/local
+	@echo ... install/strip
+	@echo ... list_install_components
 	@echo ... rebuild_cache
+	@echo ... test
 	@echo ... VT100
+	@echo ... fifo
+	@echo ... gmock
+	@echo ... gmock_main
+	@echo ... gtest
+	@echo ... gtest_main
+	@echo ... shell
+	@echo ... term
+	@echo ... test_fifo
+	@echo ... test_shell
+	@echo ... test_term
 	@echo ... fifo.obj
 	@echo ... fifo.i
 	@echo ... fifo.s

@@ -2,17 +2,18 @@
 #include <string.h>
 
 // 初始化FIFO
-void fifo_init(struct fifo *fifo, uint8_t *buffer, uint32_t capacity)
+bool fifo_init(struct fifo *fifo, uint8_t *buffer, uint32_t capacity)
 {
     // 确保容量是2的幂
     if ((capacity & (capacity - 1)) != 0) {
         // printf("kfifo_init: capacity is not a power of 2\n");
-        return;
+        return false;
     }
     fifo->buffer = buffer;
     fifo->capacity = capacity;
     fifo->in = 0;
     fifo->out = 0;
+    return true;
 }   
 
 // 写入数据到FIFO

@@ -74,9 +74,7 @@ CMakeFiles/VT100.dir/main.cpp.obj: E:\code\VT100\main.cpp \
  C:/tool/mingw32/include/c++/14.2.0/bits/cpp_type_traits.h \
  C:/tool/mingw32/include/c++/14.2.0/ext/type_traits.h \
  C:/tool/mingw32/include/c++/14.2.0/cerrno E:\code\VT100\term.h \
- E:\code\VT100\fifo.h \
- C:/tool/mingw32/lib/gcc/i686-w64-mingw32/14.2.0/include/stdbool.h \
- E:\code\VT100\shell.h C:/tool/mingw32/include/c++/14.2.0/string \
+ C:/tool/mingw32/include/c++/14.2.0/string \
  C:/tool/mingw32/include/c++/14.2.0/bits/char_traits.h \
  C:/tool/mingw32/include/c++/14.2.0/bits/allocator.h \
  C:/tool/mingw32/include/c++/14.2.0/i686-w64-mingw32/bits/c++allocator.h \
@@ -131,5 +129,6 @@ CMakeFiles/VT100.dir/main.cpp.obj: E:\code\VT100\main.cpp \
  C:/tool/mingw32/include/c++/14.2.0/bits/stl_uninitialized.h \
  C:/tool/mingw32/include/c++/14.2.0/bits/stl_vector.h \
  C:/tool/mingw32/include/c++/14.2.0/bits/stl_bvector.h \
- C:/tool/mingw32/include/c++/14.2.0/bits/vector.tcc \
- C:/tool/mingw32/include/c++/14.2.0/chrono
+ C:/tool/mingw32/include/c++/14.2.0/bits/vector.tcc E:\code\VT100\fifo.h \
+ C:/tool/mingw32/lib/gcc/i686-w64-mingw32/14.2.0/include/stdbool.h \
+ E:\code\VT100\shell.h C:/tool/mingw32/include/c++/14.2.0/chrono

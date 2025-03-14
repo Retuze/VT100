@@ -1,3 +1,3 @@
 C:\tool\mingw32\bin\cmake.exe -E rm -f CMakeFiles\VT100.dir/objects.a
 C:\tool\mingw32\bin\ar.exe qc CMakeFiles\VT100.dir/objects.a @CMakeFiles\VT100.dir\objects1.rsp
-C:\tool\mingw32\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\VT100.dir/objects.a -Wl,--no-whole-archive -o VT100.exe -Wl,--out-implib,libVT100.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\VT100.dir\linkLibs.rsp
+C:\tool\mingw32\bin\g++.exe  -O0 -fprofile-arcs -ftest-coverage -g -static -Wl,--whole-archive CMakeFiles\VT100.dir/objects.a -Wl,--no-whole-archive -o VT100.exe -Wl,--out-implib,libVT100.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\VT100.dir\linkLibs.rsp

@@ -11,7 +11,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # 配置参数（支持多个目录和文件）
 set(SOURCE_DIRS "src" "inc" "./")       # 支持多个源文件目录
-set(EXCLUDE_DIRS "doc" "build" ".vscode" ".cache" ".git" ".idea" "out")  # 支持多个排除目录
+set(EXCLUDE_DIRS "doc" "build" ".vscode" ".cache" ".git" ".idea" "out" "tests")  # 支持多个排除目录
 set(EXCLUDE_FILES ) # 支持多个排除文件
 
 # 递归查找所有源文件
@@ -63,5 +63,33 @@ include_directories(${_include_dirs})
 # message(STATUS "Include directories: ${_include_dirs}")
 # message(STATUS "======================================")
 
+# 设置静态连接
+set(CMAKE_EXE_LINKER_FLAGS "-static")
+
+# 设置编译选项，启用代码覆盖率，禁用优化
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O0 -fprofile-arcs -ftest-coverage")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O0 -fprofile-arcs -ftest-coverage")
+
+# 添加标准头文件
+include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+
 add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
 
+# 创建库文件
+add_library(fifo STATIC fifo.c)
+add_library(term STATIC term.cpp)
+add_library(shell STATIC shell.cpp)
+
+# 自动下载和配置 Google Test
+include(FetchContent)
+FetchContent_Declare(
+  googletest
+  GIT_REPOSITORY https://github.com/google/googletest.git
+  GIT_TAG release-1.12.1
+)
+# 对于 CMake 3.14+，可以使用以下简化语法
+FetchContent_MakeAvailable(googletest)
+
+# 添加测试目录
+enable_testing()
+add_subdirectory(tests)

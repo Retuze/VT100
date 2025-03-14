@@ -1,0 +1,952 @@
+Start testing: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+----------------------------------------------------------
+1/35 Testing: FifoTest.InitializationTest
+1/35 Test: FifoTest.InitializationTest
+Command: "E:/code/VT100/build/tests/test_fifo.exe" "--gtest_filter=FifoTest.InitializationTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"FifoTest.InitializationTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FifoTest.InitializationTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FifoTest
+[ RUN      ] FifoTest.InitializationTest
+[       OK ] FifoTest.InitializationTest (0 ms)
+[----------] 1 test from FifoTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"FifoTest.InitializationTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"FifoTest.InitializationTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/35 Testing: FifoTest.WriteAndReadTest
+2/35 Test: FifoTest.WriteAndReadTest
+Command: "E:/code/VT100/build/tests/test_fifo.exe" "--gtest_filter=FifoTest.WriteAndReadTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"FifoTest.WriteAndReadTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FifoTest.WriteAndReadTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FifoTest
+[ RUN      ] FifoTest.WriteAndReadTest
+[       OK ] FifoTest.WriteAndReadTest (0 ms)
+[----------] 1 test from FifoTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"FifoTest.WriteAndReadTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"FifoTest.WriteAndReadTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/35 Testing: FifoTest.CircularBufferTest
+3/35 Test: FifoTest.CircularBufferTest
+Command: "E:/code/VT100/build/tests/test_fifo.exe" "--gtest_filter=FifoTest.CircularBufferTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"FifoTest.CircularBufferTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FifoTest.CircularBufferTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FifoTest
+[ RUN      ] FifoTest.CircularBufferTest
+[       OK ] FifoTest.CircularBufferTest (0 ms)
+[----------] 1 test from FifoTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"FifoTest.CircularBufferTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"FifoTest.CircularBufferTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/35 Testing: FifoTest.PeekTest
+4/35 Test: FifoTest.PeekTest
+Command: "E:/code/VT100/build/tests/test_fifo.exe" "--gtest_filter=FifoTest.PeekTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"FifoTest.PeekTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FifoTest.PeekTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FifoTest
+[ RUN      ] FifoTest.PeekTest
+[       OK ] FifoTest.PeekTest (0 ms)
+[----------] 1 test from FifoTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"FifoTest.PeekTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"FifoTest.PeekTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/35 Testing: FifoTest.CommitReadTest
+5/35 Test: FifoTest.CommitReadTest
+Command: "E:/code/VT100/build/tests/test_fifo.exe" "--gtest_filter=FifoTest.CommitReadTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"FifoTest.CommitReadTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FifoTest.CommitReadTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FifoTest
+[ RUN      ] FifoTest.CommitReadTest
+[       OK ] FifoTest.CommitReadTest (0 ms)
+[----------] 1 test from FifoTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"FifoTest.CommitReadTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"FifoTest.CommitReadTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/35 Testing: FifoTest.CircularPeekTest
+6/35 Test: FifoTest.CircularPeekTest
+Command: "E:/code/VT100/build/tests/test_fifo.exe" "--gtest_filter=FifoTest.CircularPeekTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"FifoTest.CircularPeekTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FifoTest.CircularPeekTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FifoTest
+[ RUN      ] FifoTest.CircularPeekTest
+[       OK ] FifoTest.CircularPeekTest (0 ms)
+[----------] 1 test from FifoTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"FifoTest.CircularPeekTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"FifoTest.CircularPeekTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/35 Testing: FifoTest.AvailabilityFunctionsTest
+7/35 Test: FifoTest.AvailabilityFunctionsTest
+Command: "E:/code/VT100/build/tests/test_fifo.exe" "--gtest_filter=FifoTest.AvailabilityFunctionsTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"FifoTest.AvailabilityFunctionsTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FifoTest.AvailabilityFunctionsTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FifoTest
+[ RUN      ] FifoTest.AvailabilityFunctionsTest
+[       OK ] FifoTest.AvailabilityFunctionsTest (0 ms)
+[----------] 1 test from FifoTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"FifoTest.AvailabilityFunctionsTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"FifoTest.AvailabilityFunctionsTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/35 Testing: FifoTest.EdgeCasesTest
+8/35 Test: FifoTest.EdgeCasesTest
+Command: "E:/code/VT100/build/tests/test_fifo.exe" "--gtest_filter=FifoTest.EdgeCasesTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"FifoTest.EdgeCasesTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FifoTest.EdgeCasesTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FifoTest
+[ RUN      ] FifoTest.EdgeCasesTest
+[       OK ] FifoTest.EdgeCasesTest (0 ms)
+[----------] 1 test from FifoTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"FifoTest.EdgeCasesTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"FifoTest.EdgeCasesTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/35 Testing: FifoTest.PeekWraparoundTest
+9/35 Test: FifoTest.PeekWraparoundTest
+Command: "E:/code/VT100/build/tests/test_fifo.exe" "--gtest_filter=FifoTest.PeekWraparoundTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"FifoTest.PeekWraparoundTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FifoTest.PeekWraparoundTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FifoTest
+[ RUN      ] FifoTest.PeekWraparoundTest
+[       OK ] FifoTest.PeekWraparoundTest (0 ms)
+[----------] 1 test from FifoTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"FifoTest.PeekWraparoundTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"FifoTest.PeekWraparoundTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/35 Testing: TermTest.KeyMapSingletonTest
+10/35 Test: TermTest.KeyMapSingletonTest
+Command: "E:/code/VT100/build/tests/test_term.exe" "--gtest_filter=TermTest.KeyMapSingletonTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"TermTest.KeyMapSingletonTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TermTest.KeyMapSingletonTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TermTest
+[ RUN      ] TermTest.KeyMapSingletonTest
+[       OK ] TermTest.KeyMapSingletonTest (0 ms)
+[----------] 1 test from TermTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"TermTest.KeyMapSingletonTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"TermTest.KeyMapSingletonTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/35 Testing: TermTest.KeyMapDefaultMappingsTest
+11/35 Test: TermTest.KeyMapDefaultMappingsTest
+Command: "E:/code/VT100/build/tests/test_term.exe" "--gtest_filter=TermTest.KeyMapDefaultMappingsTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"TermTest.KeyMapDefaultMappingsTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TermTest.KeyMapDefaultMappingsTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TermTest
+[ RUN      ] TermTest.KeyMapDefaultMappingsTest
+[       OK ] TermTest.KeyMapDefaultMappingsTest (0 ms)
+[----------] 1 test from TermTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"TermTest.KeyMapDefaultMappingsTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"TermTest.KeyMapDefaultMappingsTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/35 Testing: TermTest.KeyMapCustomMappingTest
+12/35 Test: TermTest.KeyMapCustomMappingTest
+Command: "E:/code/VT100/build/tests/test_term.exe" "--gtest_filter=TermTest.KeyMapCustomMappingTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"TermTest.KeyMapCustomMappingTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TermTest.KeyMapCustomMappingTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TermTest
+[ RUN      ] TermTest.KeyMapCustomMappingTest
+[       OK ] TermTest.KeyMapCustomMappingTest (0 ms)
+[----------] 1 test from TermTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"TermTest.KeyMapCustomMappingTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"TermTest.KeyMapCustomMappingTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/35 Testing: TermTest.KeyMapNormalCharTest
+13/35 Test: TermTest.KeyMapNormalCharTest
+Command: "E:/code/VT100/build/tests/test_term.exe" "--gtest_filter=TermTest.KeyMapNormalCharTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"TermTest.KeyMapNormalCharTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TermTest.KeyMapNormalCharTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TermTest
+[ RUN      ] TermTest.KeyMapNormalCharTest
+[       OK ] TermTest.KeyMapNormalCharTest (0 ms)
+[----------] 1 test from TermTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"TermTest.KeyMapNormalCharTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"TermTest.KeyMapNormalCharTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/35 Testing: TermTest.KeyMapExtendedKeysTest
+14/35 Test: TermTest.KeyMapExtendedKeysTest
+Command: "E:/code/VT100/build/tests/test_term.exe" "--gtest_filter=TermTest.KeyMapExtendedKeysTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"TermTest.KeyMapExtendedKeysTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TermTest.KeyMapExtendedKeysTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TermTest
+[ RUN      ] TermTest.KeyMapExtendedKeysTest
+[       OK ] TermTest.KeyMapExtendedKeysTest (0 ms)
+[----------] 1 test from TermTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"TermTest.KeyMapExtendedKeysTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"TermTest.KeyMapExtendedKeysTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/35 Testing: TermTest.KeyMapControlKeysTest
+15/35 Test: TermTest.KeyMapControlKeysTest
+Command: "E:/code/VT100/build/tests/test_term.exe" "--gtest_filter=TermTest.KeyMapControlKeysTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"TermTest.KeyMapControlKeysTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TermTest.KeyMapControlKeysTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TermTest
+[ RUN      ] TermTest.KeyMapControlKeysTest
+[       OK ] TermTest.KeyMapControlKeysTest (0 ms)
+[----------] 1 test from TermTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"TermTest.KeyMapControlKeysTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"TermTest.KeyMapControlKeysTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/35 Testing: TermTest.SimulatedCaptureInputTest
+16/35 Test: TermTest.SimulatedCaptureInputTest
+Command: "E:/code/VT100/build/tests/test_term.exe" "--gtest_filter=TermTest.SimulatedCaptureInputTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"TermTest.SimulatedCaptureInputTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TermTest.SimulatedCaptureInputTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TermTest
+[ RUN      ] TermTest.SimulatedCaptureInputTest
+[       OK ] TermTest.SimulatedCaptureInputTest (0 ms)
+[----------] 1 test from TermTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"TermTest.SimulatedCaptureInputTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"TermTest.SimulatedCaptureInputTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/35 Testing: TermTest.KeyMapDifferentTypesTest
+17/35 Test: TermTest.KeyMapDifferentTypesTest
+Command: "E:/code/VT100/build/tests/test_term.exe" "--gtest_filter=TermTest.KeyMapDifferentTypesTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"TermTest.KeyMapDifferentTypesTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TermTest.KeyMapDifferentTypesTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TermTest
+[ RUN      ] TermTest.KeyMapDifferentTypesTest
+[       OK ] TermTest.KeyMapDifferentTypesTest (0 ms)
+[----------] 1 test from TermTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"TermTest.KeyMapDifferentTypesTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"TermTest.KeyMapDifferentTypesTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/35 Testing: TermTest.KeyMapEdgeCasesTest
+18/35 Test: TermTest.KeyMapEdgeCasesTest
+Command: "E:/code/VT100/build/tests/test_term.exe" "--gtest_filter=TermTest.KeyMapEdgeCasesTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"TermTest.KeyMapEdgeCasesTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TermTest.KeyMapEdgeCasesTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TermTest
+[ RUN      ] TermTest.KeyMapEdgeCasesTest
+[       OK ] TermTest.KeyMapEdgeCasesTest (0 ms)
+[----------] 1 test from TermTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"TermTest.KeyMapEdgeCasesTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"TermTest.KeyMapEdgeCasesTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/35 Testing: TermTest.KeyMapCombinationsTest
+19/35 Test: TermTest.KeyMapCombinationsTest
+Command: "E:/code/VT100/build/tests/test_term.exe" "--gtest_filter=TermTest.KeyMapCombinationsTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"TermTest.KeyMapCombinationsTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TermTest.KeyMapCombinationsTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TermTest
+[ RUN      ] TermTest.KeyMapCombinationsTest
+[       OK ] TermTest.KeyMapCombinationsTest (0 ms)
+[----------] 1 test from TermTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"TermTest.KeyMapCombinationsTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"TermTest.KeyMapCombinationsTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/35 Testing: TermTest.KeyMapInitializationTest
+20/35 Test: TermTest.KeyMapInitializationTest
+Command: "E:/code/VT100/build/tests/test_term.exe" "--gtest_filter=TermTest.KeyMapInitializationTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"TermTest.KeyMapInitializationTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TermTest.KeyMapInitializationTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TermTest
+[ RUN      ] TermTest.KeyMapInitializationTest
+[       OK ] TermTest.KeyMapInitializationTest (0 ms)
+[----------] 1 test from TermTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"TermTest.KeyMapInitializationTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"TermTest.KeyMapInitializationTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/35 Testing: TermTest.AddMappingTest
+21/35 Test: TermTest.AddMappingTest
+Command: "E:/code/VT100/build/tests/test_term.exe" "--gtest_filter=TermTest.AddMappingTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"TermTest.AddMappingTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TermTest.AddMappingTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TermTest
+[ RUN      ] TermTest.AddMappingTest
+[       OK ] TermTest.AddMappingTest (0 ms)
+[----------] 1 test from TermTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"TermTest.AddMappingTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"TermTest.AddMappingTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/35 Testing: TermTest.DefaultMappingsInitTest
+22/35 Test: TermTest.DefaultMappingsInitTest
+Command: "E:/code/VT100/build/tests/test_term.exe" "--gtest_filter=TermTest.DefaultMappingsInitTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"TermTest.DefaultMappingsInitTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TermTest.DefaultMappingsInitTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TermTest
+[ RUN      ] TermTest.DefaultMappingsInitTest
+[       OK ] TermTest.DefaultMappingsInitTest (0 ms)
+[----------] 1 test from TermTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"TermTest.DefaultMappingsInitTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"TermTest.DefaultMappingsInitTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/35 Testing: TermTest.KeyMapConstructorTest
+23/35 Test: TermTest.KeyMapConstructorTest
+Command: "E:/code/VT100/build/tests/test_term.exe" "--gtest_filter=TermTest.KeyMapConstructorTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"TermTest.KeyMapConstructorTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TermTest.KeyMapConstructorTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TermTest
+[ RUN      ] TermTest.KeyMapConstructorTest
+[       OK ] TermTest.KeyMapConstructorTest (0 ms)
+[----------] 1 test from TermTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"TermTest.KeyMapConstructorTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"TermTest.KeyMapConstructorTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/35 Testing: TermTest.ExtendedAndNormalKeyProcessingTest
+24/35 Test: TermTest.ExtendedAndNormalKeyProcessingTest
+Command: "E:/code/VT100/build/tests/test_term.exe" "--gtest_filter=TermTest.ExtendedAndNormalKeyProcessingTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"TermTest.ExtendedAndNormalKeyProcessingTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TermTest.ExtendedAndNormalKeyProcessingTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TermTest
+[ RUN      ] TermTest.ExtendedAndNormalKeyProcessingTest
+[       OK ] TermTest.ExtendedAndNormalKeyProcessingTest (0 ms)
+[----------] 1 test from TermTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"TermTest.ExtendedAndNormalKeyProcessingTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"TermTest.ExtendedAndNormalKeyProcessingTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/35 Testing: TermTest.FifoWriteFailureTest
+25/35 Test: TermTest.FifoWriteFailureTest
+Command: "E:/code/VT100/build/tests/test_term.exe" "--gtest_filter=TermTest.FifoWriteFailureTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"TermTest.FifoWriteFailureTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TermTest.FifoWriteFailureTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TermTest
+[ RUN      ] TermTest.FifoWriteFailureTest
+[       OK ] TermTest.FifoWriteFailureTest (0 ms)
+[----------] 1 test from TermTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"TermTest.FifoWriteFailureTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"TermTest.FifoWriteFailureTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/35 Testing: TermCaptureTest.BasicInputCaptureTest
+26/35 Test: TermCaptureTest.BasicInputCaptureTest
+Command: "E:/code/VT100/build/tests/test_term.exe" "--gtest_filter=TermCaptureTest.BasicInputCaptureTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"TermCaptureTest.BasicInputCaptureTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TermCaptureTest.BasicInputCaptureTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TermCaptureTest
+[ RUN      ] TermCaptureTest.BasicInputCaptureTest
+[       OK ] TermCaptureTest.BasicInputCaptureTest (0 ms)
+[----------] 1 test from TermCaptureTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"TermCaptureTest.BasicInputCaptureTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"TermCaptureTest.BasicInputCaptureTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/35 Testing: TermCaptureTest.ControlKeyInputTest
+27/35 Test: TermCaptureTest.ControlKeyInputTest
+Command: "E:/code/VT100/build/tests/test_term.exe" "--gtest_filter=TermCaptureTest.ControlKeyInputTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"TermCaptureTest.ControlKeyInputTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TermCaptureTest.ControlKeyInputTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TermCaptureTest
+[ RUN      ] TermCaptureTest.ControlKeyInputTest
+[       OK ] TermCaptureTest.ControlKeyInputTest (0 ms)
+[----------] 1 test from TermCaptureTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"TermCaptureTest.ControlKeyInputTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"TermCaptureTest.ControlKeyInputTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/35 Testing: TermCaptureTest.MixedInputTest
+28/35 Test: TermCaptureTest.MixedInputTest
+Command: "E:/code/VT100/build/tests/test_term.exe" "--gtest_filter=TermCaptureTest.MixedInputTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"TermCaptureTest.MixedInputTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TermCaptureTest.MixedInputTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TermCaptureTest
+[ RUN      ] TermCaptureTest.MixedInputTest
+[       OK ] TermCaptureTest.MixedInputTest (0 ms)
+[----------] 1 test from TermCaptureTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"TermCaptureTest.MixedInputTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"TermCaptureTest.MixedInputTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/35 Testing: ShellTest.BasicInputTest
+29/35 Test: ShellTest.BasicInputTest
+Command: "E:/code/VT100/build/tests/test_shell.exe" "--gtest_filter=ShellTest.BasicInputTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"ShellTest.BasicInputTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = ShellTest.BasicInputTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ShellTest
+[ RUN      ] ShellTest.BasicInputTest
+$ echo test[       OK ] ShellTest.BasicInputTest (0 ms)
+[----------] 1 test from ShellTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"ShellTest.BasicInputTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"ShellTest.BasicInputTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/35 Testing: ShellTest.BackspaceTest
+30/35 Test: ShellTest.BackspaceTest
+Command: "E:/code/VT100/build/tests/test_shell.exe" "--gtest_filter=ShellTest.BackspaceTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"ShellTest.BackspaceTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = ShellTest.BackspaceTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ShellTest
+[ RUN      ] ShellTest.BackspaceTest
+$ test[1D[K[1D[K[1D[K[1D[K[       OK ] ShellTest.BackspaceTest (0 ms)
+[----------] 1 test from ShellTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"ShellTest.BackspaceTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"ShellTest.BackspaceTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/35 Testing: ShellTest.CursorMovementTest
+31/35 Test: ShellTest.CursorMovementTest
+Command: "E:/code/VT100/build/tests/test_shell.exe" "--gtest_filter=ShellTest.CursorMovementTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"ShellTest.CursorMovementTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = ShellTest.CursorMovementTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ShellTest
+[ RUN      ] ShellTest.CursorMovementTest
+$ test[1D[1D[1C[1D[1D[1D[1C[1C[1C[1C[       OK ] ShellTest.CursorMovementTest (0 ms)
+[----------] 1 test from ShellTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"ShellTest.CursorMovementTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"ShellTest.CursorMovementTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/35 Testing: ShellTest.DeleteKeyTest
+32/35 Test: ShellTest.DeleteKeyTest
+Command: "E:/code/VT100/build/tests/test_shell.exe" "--gtest_filter=ShellTest.DeleteKeyTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"ShellTest.DeleteKeyTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = ShellTest.DeleteKeyTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ShellTest
+[ RUN      ] ShellTest.DeleteKeyTest
+$ abcdef[1D[1D[1D[K$ abcef[2D[K$ abcf[1D[1C[       OK ] ShellTest.DeleteKeyTest (0 ms)
+[----------] 1 test from ShellTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"ShellTest.DeleteKeyTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"ShellTest.DeleteKeyTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/35 Testing: ShellTest.MixedInputTest
+33/35 Test: ShellTest.MixedInputTest
+Command: "E:/code/VT100/build/tests/test_shell.exe" "--gtest_filter=ShellTest.MixedInputTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"ShellTest.MixedInputTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = ShellTest.MixedInputTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ShellTest
+[ RUN      ] ShellTest.MixedInputTest
+$ abc[1DX[Kc[1D[1D[Kc[1D[1D[1DY[Kabc[3D[       OK ] ShellTest.MixedInputTest (0 ms)
+[----------] 1 test from ShellTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"ShellTest.MixedInputTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"ShellTest.MixedInputTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/35 Testing: ShellTest.EnterKeyTest
+34/35 Test: ShellTest.EnterKeyTest
+Command: "E:/code/VT100/build/tests/test_shell.exe" "--gtest_filter=ShellTest.EnterKeyTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"ShellTest.EnterKeyTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = ShellTest.EnterKeyTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ShellTest
+[ RUN      ] ShellTest.EnterKeyTest
+$ test command'test' ²»ÊÇÄÚ²¿»òÍâ²¿ÃüÁî£¬Ò²²»ÊÇ¿ÉÔËÐÐµÄ³ÌÐò
+»òÅú´¦ÀíÎÄ¼þ¡£
+
+$ 
+$ [       OK ] ShellTest.EnterKeyTest (19 ms)
+[----------] 1 test from ShellTest (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (20 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"ShellTest.EnterKeyTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"ShellTest.EnterKeyTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/35 Testing: ShellTest.CursorPositionBoundaryTest
+35/35 Test: ShellTest.CursorPositionBoundaryTest
+Command: "E:/code/VT100/build/tests/test_shell.exe" "--gtest_filter=ShellTest.CursorPositionBoundaryTest" "--gtest_also_run_disabled_tests"
+Directory: E:/code/VT100/build/tests
+"ShellTest.CursorPositionBoundaryTest" start time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+Output:
+----------------------------------------------------------
+Running main() from E:\code\VT100\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = ShellTest.CursorPositionBoundaryTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ShellTest
+[ RUN      ] ShellTest.CursorPositionBoundaryTest
+$ testX[1D[1D[1C[1C[1D[K[1D[K[1D[K[1D[K[1D[K[       OK ] ShellTest.CursorPositionBoundaryTest (0 ms)
+[----------] 1 test from ShellTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"ShellTest.CursorPositionBoundaryTest" end time: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
+"ShellTest.CursorPositionBoundaryTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 14 19:45 ÖÐ¹ú±ê×¼Ê±¼ä
